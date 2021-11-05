@@ -127,3 +127,16 @@ nav {
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
+
+.heading {
+    background: #bbea76;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.open-bg {
+    background-image: url(https://telegra.ph/file/870ac605950a65d04a713.jpg);
+    background-size: cover;
+    overfloW: hidden;
+    transform: translateY(100%);
+    padding: 0rem 5rem;
+}
