@@ -1,71 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
-    <title>TheCypherX Arises</title>
+  <title>Sidhartha's Den</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main>
-        <section class="landing">
-            <nav>
-                <h1 id="logo">IzumiCypherX</h1>
-                <ul class="nav-links">
-                    <li>
-                        <a href="mailto:contact.izumicypherx@gmail.com" class="fa fa-google" style="text-decoration: None;"></a>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container" >
+            <a class="navbar-brand" href="#" title="My Online Pen-Name, Izumi.💝">Izumi 「泉」</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li>
-                        <a href="https://github.com/IzumiCypherX" class="fa fa-github" style="text-decoration: None;"></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li>
-                        <a href="https://telegram.dog/TheSidharthaRao" class="fa fa-telegram" style="text-decoration: None;"></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </nav>
-            <div class="box">
-                <img src=./pfp.jpg alt="" class="box-img">
-                <h1>
-                    Sidhartha Rao
-                </h1>
-                <h3>
-                    Developer - Student
-                </h3>
-                <p>
-                    Aspiring Coder with some knowledge over Python and Java Usage. <br>Residing in Kolkata, West Bengal. <br>Commited To Learning.
-                </p>
-    </main>
-    </div>
-    <div class="intro">
-        <div class="intro-text">
-            <h1 class="hide">
-                <span class="text">The<br></span>
-            </h1>
-            <h1 class="hide">
-                <span class="text">Izumi<br></span>
-            </h1>
-            <h1 class="hide">
-                <span class="text">CypherX</span>
-            </h1>
-            <h1 class="hide">
-                <span class="text"><br></span>
-            </h1>
+                
+            </div>
         </div>
-    </div>
-    <section>
-
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">This is Sidhartha Rao</h2>
+                <p class="hero_desc">Electronics and Technology Loving Student from Kolkata</p>
+            </div>
+            </div>
+        </div>
     </section>
-    <div class="slider"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
-    <script src="./izumi.js"></script>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">So, Who am I?</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Born in Kolkata, I was always fascinsated how all our electronics are nothing but basic charges running from one place to onether.
+                        During the pandemic of 2020 and following years, Me, a (then) 14 year old boy, sitting at home, started to learn about the basics of electronics and how they work.
+                        Since then, I have never looked aback. I have been learning about electronics and technology ever since.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Sidhartha Rao</li>
+                                <li>Age: 17</li>
+                                <li>Studying at Grace Ling Liang English School, West Bengal, India</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Computer Geek</li>
+                                <li>Curcuit design and behavior</li>
+                                <li>Aspiring Electrical/Hardware Engineer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> 
+                            I aspire to be a Hardware Engineer and work with the best of the best in the industry. 
+                            Appearing for my High School Finals this year, I am looking forward to join a good college and learn more about the field.
+                            So, that's about it. Wish me luck for my future endeavors :) 
+                            <br>
+                            I do provide remote services such as tech support, which can be availed at a negotiable price by contacting me through the contact form and other social media below.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">My Work</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Telegram Bot</h4>
+                            <p class="card-text">Although obsolete, this telegram bot could manage a group like a charm any day of the week</p>
+                            <div class="text-center">
+                                <a href="https://github.com/IzumiCypherX/EmiliaAnimeBot" class="btn btn-success">EmiliaAnimeBot</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">My Writing(s)</h4>
+                            <p class="card-text">Yes, I occasionally write poetry too.<br> You can read them to maybe pass your time on AllPoetry.</p>
+                            <div class="text-center">
+                                <a href="https://allpoetry.com/Sidhartharao1" class="btn btn-success">AllPoetry</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hardware Repair</h4>
+                            <p class="card-text">I repair hardware as a side gig. I can also do the job of an electrician to some extent. <br>
+                            This is something I don't click pictures of, and hence their is no linked page.<br>This is more of a hobby than an actual job.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Kolkata,+West+Bengal,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form action="https://formspree.io/f/mdovjddb" method="POST">
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Your Email" name="email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Email goes here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success mt-3">Let's Go!</button>
+                    </form>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.telegram.dog/TheSidharthaRao" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/izumicypherx" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/sidhartharao_xo" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/sidhartha-rao-professional/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
 </body>
 
 </html>
