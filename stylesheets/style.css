@@ -3,22 +3,22 @@
     background-color: black;
 }
 
-/* hero background image */
+/* main background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('../images/home-bg.jpeg');
     background-size:cover;
     position:relative;
 }
 
 /* text css above hero image*/
-.hero_title {
+.page_title {
     font-size: 4.5rem;
 }
-.hero_desc {
+.page_desc {
     font-size: 2rem;
 }
-.hero-text {
+.page_text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -35,30 +35,22 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+
 /* about section image css */
 .imageAboutPage {
+    height: 100%;
     width: 100%;
 }
 
 /* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
-    color: #008000;
+.card:hover{
+    background-color: #2f9e59;
 }
-.servicesText:hover {
-    border: 1px solid #008000;
-}
+
 
 /* social media icons styling */
 .social-icons {
@@ -80,11 +72,44 @@
     color: #00acee;
 }
 
+.fa-github:hover {
+    color: #531a7c;
+}
+
 .fab {
     color: #000000;
 }
+
 /* footer styling */
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.internal-links {
+    color:#000000
+}
+
+.internal-links:hover {
+    color: #2f9e59
+}
+
+/* Modifications to Bootstrap CDN */
+
+.nav-link {
+    padding: 5px 5px 5px 5px; 
+}
+
+.nav-link:hover {
+    padding: 5px 5px 5px 5px;
+    background-color: #000000       
+}
+
+.navbar {
+    background-color: rgba(88, 174, 200, 0.329);
+    opacity: 0.750;
+}
+
+.btn-success:hover {
+    background-color: #000000;
 }
