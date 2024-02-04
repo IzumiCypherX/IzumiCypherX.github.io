@@ -21,10 +21,10 @@
   <link rel="icon" href="favicon.png">
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-        <div class="container" >
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll color-change-5x">
+        <div class="container">
             <a class="navbar-brand" href="#" title="My Online Pen-Name, Izumi.💝">Izumi 「泉」</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,12 +49,12 @@
         </div>
     </nav>
     <!-- main banner -->
-    <section class="bgimage" id="home">
+    <section class="bgprop color-change-5x" id="home">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 page_text">
-                <h2 class="page_title ">This is <u><a class="internal-links" href="#about">Sidhartha Rao</a></u></h2>
-                <p class="page_desc"><i>Electronics and Technology Loving Student from Kolkata</i></p>
+                <h2 class="page_title "><span class="tracking-in-contract-bck">This is</span> <u><a  href="#about" style="color: inherit;"><br><span class="tracking-in-contract-bck1">Sidhartha Rao</a></u></h2>
+                <p class="page_desc tracking-in-contract-bck-bottom"><i>Technology-Loving Student from Kolkata</i></p>
             </div>
             </div>
         </div>
@@ -70,10 +70,10 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Born in Kolkata, I was always fascinsated how all our electronics are nothing but basic charges running from one place to onether.
-                        During the pandemic of 2020 and following years, Me, a (then) 14 year old boy, sitting at home, started to learn about the basics of electronics and how they work.
-                        Since then, I have never looked aback. I have been learning about electronics and technology ever since.
-                        
+                    <p>Born in Kolkata. I am in my Final Year of High School. 
+                        During the Pandemic, I decided to use my leisure time for something productive and ended up getting interested in Python Programming and App Hosting Services.
+                        I plan on learing and taking up projects with Javascript and React from this year. I love learing and I look forward to any advice that is given to me.
+                        My hoobies include History and Technology Journals.
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
@@ -88,15 +88,15 @@
                             <ul>
                                 <li>Computer <i>Geek</i></li>
                                 <li>Curcuit Design and Behavior</li>
-                                <li>Aspiring Electrical/Hardware Engineer</li>
+                                <li>Machine Learning and Artificial Intelligence</li>
 
                             </ul>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <p> 
-                            I aspire to be a Hardware Engineer and work with the best of the best in the industry. 
-                            Appearing for my High School Finals this year, I am looking forward to join a good college and learn more about the field.
+                            I aspire to be a Computer Engineer and work with the best of the best in the industry. 
+                            Appearing for my High School Finals this year, I am looking forward to joining a good college and learn more about the field.
                             So, that's about it. Wish me luck for my future endeavors :) 
                             <br>
                             I do provide remote services such as tech support, which can be availed at a negotiable price by contacting me through the contact form and other social media below.
@@ -118,7 +118,7 @@
                             <h4 class="card-title">Telegram Bot</h4>
                             <p class="card-text">Although obsolete, this telegram bot could manage a group like a charm any day of the week</p>
                             <div class="text-center">
-                                <a href="https://github.com/IzumiCypherX/EmiliaAnimeBot" class="btn btn-success">EmiliaAnimeBot</a>
+                                <a href="https://github.com/IzumiCypherX/EmiliaAnimeBot" class="btn btn-success" target="_blank">EmiliaAnimeBot</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                             <h4 class="card-title">My Writing(s)</h4>
                             <p class="card-text">Yes, I occasionally write poetry too.<br> You can read them on AllPoetry.</p>
                             <div class="text-center">
-                                <a href="https://allpoetry.com/Sidhartharao1" class="btn btn-success">AllPoetry</a>
+                                <a href="https://allpoetry.com/Sidhartharao1" class="btn btn-success" target="_blank">AllPoetry</a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,26 @@
                         <div class="mb-3 mt-3">
                             <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Email goes here..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success mt-3">Let's Go!</button>
+                        <!-- <button type="submit" class="btn btn-success mt-3">Let's Go!</button> -->
+                        <button type="submit" class="btn btn-success mt-3 submit-email-btn">
+                            <div class="svg-wrapper-1">
+                              <div class="svg-wrapper">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  width="24"
+                                  height="24"
+                                >
+                                  <path fill="none" d="M0 0h24v24H0z"></path>
+                                  <path
+                                    fill="currentColor"
+                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                  ></path>
+                                </svg>
+                              </div>
+                            </div>
+                            <span>Send</span>
+                          </button>
                     </form>
                 </div>
             </div>
@@ -187,7 +206,7 @@
 
     <!-- footer section-->
     <footer id="footer">
-        <div class="container-fluid">
+        <div class="container-fluid color-change-5x">
             <!-- social media icons -->
             <div class="social-icons mt-4">
                 <a href="https://www.telegram.dog/TheSidharthaRao" target="_blank"><i class="fab fa-telegram"></i></a>
