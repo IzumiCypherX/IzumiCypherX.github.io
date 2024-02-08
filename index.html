@@ -6,13 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- linking css files -->
   
-  <!-- bootstrap CDN has also been linked locally to load locally (personal use) DO "NOT" TOUCH!! -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- link href="stylesheets/bootstrap.min.css" rel="stylesheet"-->
-  <!--script src="script/bootstrap.bundle.min.js"></script-->
-
 
   <link href="stylesheets/style.css" rel="stylesheet">
   <!-- font awesome -->
@@ -21,15 +16,17 @@
   <link rel="icon" href="favicon.png">
 </head>
 
-<body style="overflow-x: hidden;">
+<body  style="overflow-x: hidden;">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll color-change-5x">
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll color-change">
         <div class="container">
             <a class="navbar-brand" href="#" title="My Online Pen-Name, Izumi.💝">Izumi 「泉」</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <br>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
@@ -43,18 +40,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li id="darktoggle" class="nav-item">
+                        <a class="nav-link" onclick="darkSide()" style="cursor: pointer;">Dark Mode</a>
+                    </li>
                 </ul>
                 
             </div>
         </div>
     </nav>
+    <!-- EOS Navbar -->
     <!-- main banner -->
-    <section class="bgprop color-change-5x" id="home">
+    <section class="bgprop color-change" id="home">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 page_text">
-                <h2 class="page_title "><span class="tracking-in-contract-bck">This is</span> <u><a  href="#about" style="color: inherit;"><br><span class="tracking-in-contract-bck1">Sidhartha Rao</a></u></h2>
-                <p class="page_desc tracking-in-contract-bck-bottom"><i>Technology-Loving Student from Kolkata</i></p>
+                <h2 class="page_title "><span class="tracking-in-contract-bck" id="thisis">This is</span> <u><a  href="#about" style="color: inherit"><br><span class="tracking-in-contract-bck1 mainname"><span>Sidhartha Rao</span></a></u></h2>
+                <p class="page_desc tracking-in-contract-bck-bottom mainname"><i>Technology-Loving Student from Kolkata</i></p>
             </div>
             </div>
         </div>
@@ -63,39 +64,41 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">So, <i>Who am I?</i></h1>
+            <h1 class="text-center"><u>So, <i>Who am I?</i></u></h1>
             <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/me.jpg" class= "imageAboutPage" alt="">
-                </div>
-
-                <div class="col-lg-8">
-                    <p>Born in Kolkata. I am in my Final Year of High School. 
-                        During the Pandemic, I decided to use my leisure time for something productive and ended up getting interested in Python Programming and App Hosting Services.
+                <!-- Will find a better image later -->
+                <!-- 
+                    <div class="col-lg-4">
+                    <img src="images/me.jpg" class= "imageAboutPage" alt=""> 
+                </div> 
+            -->
+                <div>
+                    <p class="normaltext">Born in Kolkata. I am in my Final Year of High School. <br>
+                        During the Pandemic, I decided to use my leisure time for something productive and ended up getting interested in Python Programming and App Hosting Services. <br>
                         I plan on learing and taking up projects with Javascript and React from this year. I love learing and I look forward to any advice that is given to me.
                         My hoobies include History and Technology Journals.
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
                             <ul>
-                                <li><b>Name: </b>Sidhartha Rao</li>
-                                <li><b>Age: </b>17</li>
-                                <li>Studying at <a class="internal-links" href="https://www.gracelingliangenglishschool.com/">Grace Ling Liang English School</a>, West Bengal, India</li>
+                                <li class="normaltext"><b>Name: </b>Sidhartha Rao</li>
+                                <li class="normaltext  "><b>Age: </b>17</li>
+                                <li class="normaltext  ">Studying at <a class="internal-links" href="https://www.gracelingliangenglishschool.com/">Grace Ling Liang English School</a>, West Bengal, India</li>
 
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <li>Computer <i>Geek</i></li>
-                                <li>Curcuit Design and Behavior</li>
-                                <li>Machine Learning and Artificial Intelligence</li>
+                                <li class="normaltext  ">Computer <i>Geek</i></li>
+                                <li class="normaltext  ">Curcuit Design and Behavior</li>
+                                <li class="normaltext  ">Machine Learning and Artificial Intelligence</li>
 
                             </ul>
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <p> 
-                            I aspire to be a Computer Engineer and work with the best of the best in the industry. 
+                        <p class="normaltext"> 
+                            I aspire to be a Computer Engineer and work with the best of the best in the industry. <br>
                             Appearing for my High School Finals this year, I am looking forward to joining a good college and learn more about the field.
                             So, that's about it. Wish me luck for my future endeavors :) 
                             <br>
@@ -109,14 +112,14 @@
     <!-- portfolio section-->
     <section id="portfolio">
         <div class="container mt-3">
-            <h1 class="text-center">My Work</h1>
+            <h1 class="text-center"><u>My Work</u></h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
-                    <div class="card">
+                    <div class="card portfolioContent">
                         <img class="card-img-top" src="images/emilia.jpg" alt="Emilia" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Telegram Bot</h4>
-                            <p class="card-text">Although obsolete, this telegram bot could manage a group like a charm any day of the week</p>
+                            <p class="card-text card-text-dark">Although obsolete, this telegram bot could manage a group like a charm any day of the week</p>
                             <div class="text-center">
                                 <a href="https://github.com/IzumiCypherX/EmiliaAnimeBot" class="btn btn-success" target="_blank">EmiliaAnimeBot</a>
                             </div>
@@ -129,7 +132,7 @@
                         <img class="card-img-top" src="images/poetry.jpg" alt="Poetry" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">My Writing(s)</h4>
-                            <p class="card-text">Yes, I occasionally write poetry too.<br> You can read them on AllPoetry.</p>
+                            <p class="card-text  ">Yes, I occasionally write poetry too.<br> You can read them on AllPoetry.</p>
                             <div class="text-center">
                                 <a href="https://allpoetry.com/Sidhartharao1" class="btn btn-success" target="_blank">AllPoetry</a>
                             </div>
@@ -142,7 +145,7 @@
                         <img class="card-img-top" src="images/logic.jpg" alt="Logic Circuit" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Hardware Repair</h4>
-                            <p class="card-text">I repair hardware as a side gig. I can also do the job of an electrician to some extent. <br>
+                            <p class="card-text  ">I repair hardware as a side gig. I can also do the job of an electrician to some extent. <br>
                             This is something I don't click pictures of, and hence their is no linked page.<br>This is more of a hobby than an actual job.</p>
                             
                         </div>
@@ -168,8 +171,9 @@
                         </style>
                     </div>
                 </div>
-
+                
                 <div class="col-lg-6">
+                    <br><br>
                     <!-- form fields -->
                     <form action="https://formspree.io/f/mdovjddb" method="POST">
                         <input type="text" class="form-control form-control-lg" placeholder="Name (Required)">
@@ -204,9 +208,17 @@
         </div>
     </section>
 
+    <section class="text-center">
+        Copyright (c) 2024 Sidhartha Rao <br>
+        Licensed under MIT License
+    </section><br>
+
+    <section id="light-mode-promo" class="text-center" style="color: white !important;">
+    </section>
+
     <!-- footer section-->
     <footer id="footer">
-        <div class="container-fluid color-change-5x">
+        <div class="container-fluid color-change">
             <!-- social media icons -->
             <div class="social-icons mt-4">
                 <a href="https://www.telegram.dog/TheSidharthaRao" target="_blank"><i class="fab fa-telegram"></i></a>
