@@ -42,7 +42,7 @@ function makeDark() {
     document.querySelector('.internal-links').classList.replace('internal-links', 'internal-links-dark');
 
     // Change the text color throughout the page
-    document.querySelector('#thisis').classList.add('thisis-dark');
+    document.querySelector('#thisis').textContent = "";
     var mainname = document.querySelectorAll('.mainname')
     mainname.forEach((l) => {
         l.classList.add('myname');
@@ -101,7 +101,7 @@ function makeLight() {
     document.querySelector('.internal-links-dark').classList.replace('internal-links-dark', 'internal-links');
 
     // Change the text color throughout the page
-    document.querySelector('#thisis').classList.remove('thisis-dark');
+    document.querySelector('#thisis').textContent = "This is";
     var mainname = document.querySelectorAll('.mainname')
     mainname.forEach((l) => {
         l.classList.remove('myname');
@@ -147,3 +147,15 @@ function darkSide() {
     }
     
 }
+
+
+function show() {
+    if(window.innerWidth < 768){
+        console.log(window.innerHeight);
+        document.querySelector('.mainname').classList.remove('tracking-in-contract-bck1');
+        document.querySelector('#thisis').classList.remove('tracking-in-contract-bck');
+        document.querySelector('.page_desc').classList.remove('tracking-in-contract-bck-bottom'); 
+        console.log(document.querySelector('.page_desc'))
+  }
+}
+show();
