@@ -1,32 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-/* :root { */
-  *{
-  /** CSS DARK THEME PRIMARY COLORS */  
-  --color-primary-100:  #382bf0; 
-  --color-primary-200:  #5e43f3; 
-  --color-primary-300:  #7a5af5; 
-  --color-primary-400:  #9171f8; 
-  --color-primary-500:  #a688fa; 
-  --color-primary-600:  #ba9ffb;  
-  /** CSS DARK THEME SURFACE COLORS */ 
-  --color-surface-100:  #121212; 
-  --color-surface-200:  #282828; 
-  --color-surface-300:  #3f3f3f; 
-  --color-surface-400:  #575757; 
-  --color-surface-500:  #717171; 
-  --color-surface-600:  #8b8b8b; 
-  --color-surface-custom-1: #554461; 
-  /** CSS DARK THEME MIXED SURFACE COLORS */  
-  --color-surface-mixed-100: #271c4d; --color-surface-mixed-200: #3d315f;--color-surface-mixed-300: #544872;
-  --color-surface-mixed-400: #6b5f85;--color-surface-mixed-500: #827898;--color-surface-mixed-600: #9a91ac;
-}
 
 body {
   max-width: 100vw !important;
@@ -392,74 +367,3 @@ body {
   }
 
 
-/* Dark mode things below */
-
-.thisis-dark {
-  color: #ffffff
-}
-.navbar-dark {
-  background-color: var(--color-surface-300);
-}
-
-.navbar-brand-dark {
-  color: #fff6a9 !important;
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-}
-
-.myname {
-  color: #ffffff !important;
-  text-shadow: 0 0 5px #cca8dc, 0 0 15px #cca8dc, 0 0 20px #cca8dc, 0 0 40px #cca8dc, 0 0 60px #bd2781, 0 0 10px #cca8dc, 0 0 98px #ff0000;
-}
-
-.nav-link-dark{
-  color: var(--color-primary-600) !important
-}
-
-.nav-link-dark:hover {
-  background-color: var(--color-primary-300) !important
-}
-
-.normaltext-dark {
-  color: whitesmoke !important
-}
-
-.navbar-toggler-icon-dark {
-  background-image: url("../images/burger-menu-svgrepo-dark.svg") !important; 
-}
-
-
-.other-page-dark {
-  background-color: var(--color-surface-100);
-}
-
-.internal-links-dark {
-  color: green;
-}
-
-.internal-links-dark:hover {
-  color: white;
-}
-
-.card-dark {
-  background-color: var(--color-primary-400);
-}
-
-.card-dark:hover {
-  background-color: var(--color-primary-600);
-}
-
-.card-text-dark {
-  color: var(--color-surface-custom-1)
-}
-
-.text-center-dark {
-  color: var(--color-primary-500) !important
-}
-
-.form-control-dark {
-  background-color:#0077b5 !important
-}
-
-.form-control-dark::placeholder {
-  color: var(--color-primary-600) !important
-}

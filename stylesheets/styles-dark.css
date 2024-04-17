@@ -1,0 +1,82 @@
+* {
+    --bg-dark: #272E33;
+    --text-dark: #D3C6AA;
+    --fg-dark: #2E383C;
+  
+    --hover-bg: #D3C6AA;
+    --hover-text: #AEC984;
+  
+    --current-tab-bg: #A29C89;
+  
+}
+.thisis-dark {
+    color: #ffffff
+  }
+  .navbar-dark {
+    background-color: var(--fg-dark);
+  }
+  
+  .navbar-brand-dark {
+    color: #fff6a9 !important;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  }
+  
+  .myname {
+    color: #ffffff !important;
+    text-shadow: 0 0 5px #cca8dc, 0 0 15px #cca8dc, 0 0 20px #cca8dc, 0 0 40px #cca8dc, 0 0 60px #bd2781, 0 0 10px #cca8dc, 0 0 98px #ff0000;
+  }
+  
+  .nav-link-dark{
+    color: var(--text-dark) !important
+  }
+  
+  .nav-link-dark:hover {
+    background-color: var(--hover-bg) !important;
+    color: var(--bg-dark) !important;
+  }
+  
+  .normaltext-dark {
+    color: whitesmoke !important
+  }
+  
+  .navbar-toggler-icon-dark {
+    background-image: url("../images/burger-menu-svgrepo-dark.svg") !important; 
+  }
+  
+  
+  .other-page-dark {
+    background-color: var(--bg-dark);
+  }
+  
+  .internal-links-dark {
+    color: var(--hover-text);
+  }
+  
+  .internal-links-dark:hover {
+    color: white;
+  }
+  
+  .card-dark {
+    background-color: var(--hover-text);
+  }
+  
+  .card-dark:hover {
+    background-color: #AEC984;
+  }
+  
+  .card-text-dark {
+    color: var(--fg-dark) !important
+  }
+  
+  .text-center-dark {
+    color: var(--hover-text) !important
+  }
+  
+  .form-control-dark {
+    background-color:var(--hover-text) !important
+  }
+  
+  .form-control-dark::placeholder {
+    color: var(--fg-dark) !important
+  }
+  
